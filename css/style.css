@@ -1209,6 +1209,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #intro .carousel-item {
   height: 35vh !important;
+  margin-top: 7vh
 }
   #header #logo h1 {
     font-size: 28px;
