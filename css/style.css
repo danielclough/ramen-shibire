@@ -199,7 +199,7 @@ h6 {
   bottom: 0;
 }
 
-#intro .carousel-container {
+.carousel-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -217,10 +217,15 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  background: url(/home/daniel/Git/html/ShibireRamen/img/about-mission.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#intro .carousel-background img {
-  max-width: 100%;
+.carousel-background img {
+  background: url(./img/intro-carousel/1.jpg);
+  background-size: cover;
 }
 
 
@@ -1208,8 +1213,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro .carousel-item {
-  height: 35vh !important;
-  margin-top: 7vh
+  height: 45vh !important;
+  margin-top: 80px;
 }
   #header #logo h1 {
     font-size: 28px;
