@@ -603,8 +603,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #logo-featured {
     filter: drop-shadow(0 0 30px #aaa);
-    size: 10vw !important;
-    margin: auto;
+    margin: 5% ;
     display: block; 
 }
 
